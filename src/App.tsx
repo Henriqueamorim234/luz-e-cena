@@ -1,14 +1,14 @@
 import Banner from "./components/Banner";
-import Link from "./components/Link";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
+      <Header />
       <Banner
         src={"./banners/BannerPrincipalDesktop.png"}
         alt={"banner principal"}
       />
-      <Link href="/">Link</Link>
     </>
   );
 }
