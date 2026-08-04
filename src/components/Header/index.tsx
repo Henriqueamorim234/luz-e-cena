@@ -10,7 +10,7 @@ function Header() {
     <header>
       <HeaderList>
         <HeaderListItem>
-          <Logo src="/Logo.png" />
+          <Logo src="/Logo-azul.png" />
         </HeaderListItem>
         <HeaderListItem>
           <HeadersLinks />

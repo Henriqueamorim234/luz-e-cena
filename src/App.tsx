@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MovieSection from "./components/MovieSection/Index";
 import NewLetter from "./components/NewsLetter";
@@ -14,6 +15,7 @@ function App() {
       <MovieSection />
       <Banner src="./banners/Combo-Desktop.png" alt="banner Combo" />
       <NewLetter />
+      <Footer />
     </>
   );
 }
