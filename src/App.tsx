@@ -1,6 +1,7 @@
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 import MovieSection from "./components/MovieSection/Index";
+import NewLetter from "./components/NewsLetter";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         alt={"banner principal"}
       />
       <MovieSection />
+      <Banner src="./banners/Combo-Desktop.png" alt="banner Combo" />
+      <NewLetter />
     </>
   );
 }
